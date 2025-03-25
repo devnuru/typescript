@@ -4,3 +4,5 @@
 npm install -g typescript
 
 ```
+
+## string, number, boolean are basic types.
