@@ -1,3 +1,4 @@
+"use strict";
 // Basic Types
 // string, number, boolean
 // console.log('Hello, TypeScript!');
@@ -405,12 +406,67 @@ console.log(laptop.getPrice()); // ✅ Allowed (via public method)
 laptop.getDetails(); // ✅ Allowed (protected properties accessed inside subclass)
 
 */
-// Module System 
-import { User } from './classes/user.js';
+/*
+// Module System
+
+import { User } from './classes/user.js'
+
 const devnuru = new User('Md. Nuruzzaman Chowdhury', 28, "Bangladesh");
 const sexyWife = new User('Sexy Wife', 24, "Bangladesh");
+
 console.log(sexyWife.age);
 console.log(sexyWife.country);
-const users = [];
-users.push(sexyWife);
-users.push(devnuru);
+
+const users: User[] =[];
+
+users.push(sexyWife)
+users.push(devnuru)
+
+*/
+/*
+interface RectangleOptions{
+    width: number;
+    length: number
+}
+
+function drawRectangle(options: RectangleOptions) {
+  let width = options.width;
+  let length = options.length;
+}
+
+// drawRectangle({
+//     width: 80,
+//     length: 120,
+//     height: 50
+// });
+let threeDoptions = {
+    width: 80,
+    length: 120,
+    height: 50
+}
+
+drawRectangle(threeDoptions)
+
+*/
+/*
+
+
+/*
+
+import {Player} from './classes/Player.js';
+import {IsPlayer} from './interfaces/IsPlayer.js'
+
+const masrafi = new Player("Masrafi", 56, "Banglasedh")
+let sakib: IsPlayer;
+
+sakib = new Player("Sakib", 34, "Bangladesh");
+
+const players: IsPlayer[] = [];
+
+players.push(sakib);
+players.push(masrafi);
+
+*/
+var ;
+(function () {
+})( || ( = {}));
